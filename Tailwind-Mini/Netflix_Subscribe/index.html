@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Email Subscribe</title>
+</head>
+<body>
+  <!-- background container -->
+  <div class="flex items-center justify-center h-screen bg-white">
+    <!-- card -->
+    <div class="bg-white p-2 mx-6 rounded-2xl shadow-2xl border">
+      <!-- Flex Container -->
+      <div class="flex flex-col md:flex-row rounded-l-xl">
+        <!-- Image -->
+        <img src="./Netflix Logo.png" alt="" class="object-fit rounded-xl h-80 md:h-64 md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hober:rounded-xl duration-200">
+        <!-- Content -->
+        <div class="p-6 md:p-12">
+          <h2 class="text-xl font-medium text-center text-black md:text-left">넷플릭스 무료 3개월 구독권</h2>
+          <p class="max-w-xs my-4 text-xs leading-5 tracking-wide text-center text-black md:text-left">지금 이메일을 입력하고, 추첨을 통해서 3개월 구독권을 드리고 있습니다. </p>
+
+          <div class="flex flex-col mt-5 space-y-4 md:space-x-3 md:flex-row md:space-y-0">
+            <input type="text" placeholder="Enter your email address" class="p-2 px-4 text-center text-black bg-white border border-black placeholder:text-xs placeholder:text-center md:text-left placeholder:md:text-left focus:outline-red-500" />
+
+            <button class="px-5 py-3 text xs rounded-md text-red-500 bg-white border border-black hover:border-red-500 hover:bg-red-500 hover:text-white duration-500">Subscribe</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
